@@ -18,6 +18,8 @@ connect.then(() => console.log('Connected correctly to server'),
 );
 
 const campsiteRouter = require('./routes/campsiteRouter');
+const partnerRouter = require('./routes/partnerRouter');
+const promotionRouter = require('./routes/promotionRouter');
 
 var app = express();
 
@@ -35,6 +37,9 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 app.use('/campsites', campsiteRouter);
+//make a change
+app.use('/partners', partnerRouter);
+app.use('/promotions', promotionRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
