@@ -4,7 +4,7 @@ Completion requirements
  Done: View
 Learn about how to use HTTPS to create a secure communication channel. 
 
-2. Exercise: HTTPS and Secure Communication
+Exercise: HTTPS and Secure Communication
 
 What You'll Do
 
